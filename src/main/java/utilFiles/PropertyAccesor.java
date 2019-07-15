@@ -25,12 +25,20 @@ public class PropertyAccesor {
         }
     }
 
-    public String getURL(){
+    public String getURL() {
         return prop.getProperty("url");
     }
 
-    public String getBrowser(){
+    public String getBrowser() {
         return prop.getProperty("browser");
+    }
+
+    public String getUsername() {
+        return prop.getProperty("username");
+    }
+
+    public String getPassword() {
+        return prop.getProperty("password");
     }
 
     public static void main(String[] args) {
